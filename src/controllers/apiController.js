@@ -3,7 +3,8 @@
 let successState = 0 // 表示成功
 let fialState = 1 // 表示失败
 // 1.0 7牛云存储域名
-let domain = 'http://ofv795nmp.bkt.clouddn.com/'
+// let domain = 'http://ofv795nmp.bkt.clouddn.com/'
+let domain = 'http://demo.dtcms.net/'
 
 exports.getlunbo= (req, res) => {
  let resObj = {status: successState, message: [{
